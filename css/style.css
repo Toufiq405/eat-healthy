@@ -62,6 +62,10 @@
     font-size: 40px;
     color: #707070;
   }
+  h3 {
+    font-size: 28px;
+
+  }
 
   /* ============================
     2. Home Page Design
@@ -109,4 +113,59 @@
   margin-left: 170px;
   display: inline-block;
 }
+  /* ============================
+    4. Rcipie Section
+  ===============================*/
+.rcipie_container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 25px;
+}
+.rcipie_boxes {
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px #999999cc;
+}
+.rcipie_boxes img {
+  width: 100%;
+}
+.rcipie_img {
+height: 424px;
+border-radius: 30px;
+}
+.rcipie_dis {
+  font-size: 18px;
+  color: #18191F;
+}
 
+.follower_container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  box-shadow: 5px 5px 15px #999999cc;
+  padding: 20px;
+  border-radius: 15px;
+}
+.follower_boxes {
+  text-align: center;
+}
+h4 {
+  font-size: 48px;
+  margin: 10px;
+}
+.follower_boxes p {
+  font-size: 16px;
+  color: #707070;
+}
+footer {
+  background: #0B0D17;
+  padding: 40px 10px;
+  text-align: center;
+}
+h5 {
+  font-size: 30px;
+  color: #5B5B5B;
+}
+footer p {
+  color: #FFFFFF;
+  font-size: 16px;
+}
