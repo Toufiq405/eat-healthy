@@ -80,7 +80,7 @@
     font-size: 20px;
   }
   .hp_bg_img {
-    background: url(../img/Group orange.png) no-repeat center ;
+    background: url("img/Group 8450.png") no-repeat center ;
     background-size: 100%;
   }
   .hero_img {
@@ -92,7 +92,7 @@
     3. About Section
   ===============================*/
 .about_section {
-  background: url(../img/Frame 57.jpg) no-repeat;
+  background: url("img/Frame 57.jpg") no-repeat;
   background-size: 100%;
 }
 .about_container {
