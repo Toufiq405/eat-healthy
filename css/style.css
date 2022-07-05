@@ -1,0 +1,112 @@
+/* ============================
+  Site info
+  =========
+  Tmaplate Name : Eat-healthy
+  Disogn by : Programming Hero Team
+  Coding by : Toufiqul Ilam
+  version : 1.00v
+
+  ============================*/
+  /* ===========================
+    Css Indexing
+    ============
+    1. Commom css
+    2. Home Page
+
+
+  ============================ */
+  /* ============================
+    1. Common Css
+  ===============================*/
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap');
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+    color: #222;
+  }
+  section {
+    padding: 50px 0px;
+  }
+  .row {
+    width: 1140px;
+    margin: auto;
+  }
+  .display-flex {
+    display: flex;
+    position: relative;
+  }
+  h1 {
+    font-size: 50px;
+    letter-spacing: -2%;
+    margin-top: 120px;
+  }
+  .text-color-orange {
+    color: #FC8E48;
+  }
+  /* Reuseable Css */
+  .link_button {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(45deg,#FBA24F,#FF1E1E);
+    padding: 16px 45px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 45px;
+  }
+  h2{
+    font-size: 40px;
+    color: #707070;
+  }
+
+  /* ============================
+    2. Home Page Design
+  ===============================*/
+  #home_page {
+    width: 100%;
+  }
+  .home_page_container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+  }
+  .hp_discription {
+    font-weight: 600;
+    color: #828282;
+    font-size: 20px;
+  }
+  .hp_bg_img {
+    background: url(/img/Group\ orange.png) no-repeat center ;
+    background-size: 100%;
+  }
+  .hero_img {
+    width: 100%;
+    display: inline-block;
+    margin: 0px 0px 55px -56px;
+  }
+    /* ============================
+    3. About Section
+  ===============================*/
+.about_section {
+  background: url(/img/Frame\ 57.jpg) no-repeat;
+  background-size: 100%;
+}
+.about_container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.about_dis {
+  font-size: 18px;
+  color: #18191F;
+}
+.about_person {
+  width: 338px;
+  height: 536px;
+  margin-left: 170px;
+  display: inline-block;
+}
+
